@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/aydin-due/fizzbuzz/issues"
   },
-  "homepage": "https://github.com/aydin-due/fizzbuzz#readme"
+  "homepage": "https://github.com/aydin-due/fizzbuzz#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
 }
