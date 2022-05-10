@@ -14,6 +14,6 @@ describe("Tests para ExplorerService", () => {
     test("Requerimiento 3: Username de explorers en misión", () => {
         const explorers = [{githubUsername: "user1", mission: "node"}, {githubUsername: "user2", mission: "java"}];
         const usernamesInNode = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
-        expect(usernamesInNode).toStrictEqual(["user2"]);
+        expect(usernamesInNode).toStrictEqual(["user1"]);
     })
 })
